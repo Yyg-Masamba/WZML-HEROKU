@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://github.com/weebzone/WZML">
+    <a href="https://github.com/Yyg-Masamba/WZML-HEROKU">
         <kbd>
-            <img width="250" src="https://graph.org/file/639fe4239b78e5862b302.jpg" alt="WZML-X Logo">
+            <img width="250" src="https://telegra.ph/file/e645015abe1fd104352e2.jpg" alt="WZML-X Logo">
         </kbd>
     </a>
 
