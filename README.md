@@ -950,3 +950,30 @@ Where host is the name of extractor (eg. instagram, Twitch). Multiple accounts o
 |Author and DDL, UI Design, More Customs..|Author and Wraps Up Features|Co-Author & Bug Tester|Base Repo: MLTB|
 
 </details>
+
+
+**Important Note**
+
+**UPLOAD ANYTHING HERE: Accounts, Token, Button, Terabox, rcl.conf, shorteners.txt, etc or you can upload in bsetting**
+
+
+
+
+
+**Mandatory Veriables in Config**
+
+- `UPSTREAM_REPO`: https://GitHubusername:git_token@github.com/GitHubusername/reponame
+- `UPSTREAM_BRANCH`: Upstream branch for update. Default is `pea_run`. `Str`
+
+- `BOT_TOKEN`: The Telegram Bot Token that you got from [BotFather](https://t.me/BotFather). `Str`
+- `OWNER_ID`: The Telegram User ID (not username) of the Owner of the bot. `Int`
+- `TELEGRAM_API`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://my.telegram.org>. `Int`
+- `TELEGRAM_HASH`: This is to authenticate your Telegram account for downloading Telegram files. You can get this from <https://my.telegram.org>. `Str`
+
+- `BASE_URL`: Valid BASE URL where the bot is deployed to use torrent web files selection. Format of URL should be `https://app-name.herokuapp.com/`, where `app-name` is the name of your heroku app. `Str`
+- `TORRENT_TIMEOUT`: Timeout of dead torrents downloading with qBittorrent and Aria2c in seconds. `Int`
+
+------
+
+
+
