@@ -13,7 +13,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
+    BOT_STATS = '''⌬ <b><i>𝗣𝗘𝗔 𝗠𝗔𝗦𝗔𝗠𝗕𝗔 𝗕𝗢𝗧 𝗦𝗧𝗔𝗧𝗜𝗦𝗧𝗜𝗖𝗦 :</i></b>
 ┖ <b>Bot Uptime :</b> {bot_uptime}
 
 ┎ <b><i>RAM ( MEMORY ) :</i></b>
