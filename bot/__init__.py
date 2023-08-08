@@ -135,7 +135,7 @@ if len(TELEGRAM_HASH) == 0:
     
 TIMEZONE = environ.get('TIMEZONE', '')
 if len(TIMEZONE) == 0:
-    TIMEZONE = 'Asia/Kolkata'
+    TIMEZONE = 'Asia/Makassar'
     
 def changetz(*args):
     return datetime.now(timezone(TIMEZONE)).timetuple()
@@ -476,15 +476,15 @@ IMG_PAGE = int(IMG_PAGE) if IMG_PAGE.isdigit() else ''
 
 AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
 if len(AUTHOR_NAME) == 0:
-    AUTHOR_NAME = 'WZML-X'
+    AUTHOR_NAME = 'PEA-MASAMBA'
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WZML_X'
+    AUTHOR_URL = 'https://t.me/CollectionMovie_Subtitles'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = 'WZ-M/L-X'
+    TITLE_NAME = 'PEA-MASAMBA'
     
 COVER_IMAGE = environ.get('COVER_IMAGE', '')
 if len(COVER_IMAGE) == 0:
@@ -492,7 +492,7 @@ if len(COVER_IMAGE) == 0:
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by WZML-X'
+    GD_INFO = 'Uploaded by PEA MASAMBA'
 
 SAVE_MSG = environ.get('SAVE_MSG', '')
 SAVE_MSG = SAVE_MSG.lower() == 'true'
